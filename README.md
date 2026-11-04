@@ -18,11 +18,11 @@ my-fullstack-app/
 │   │   │   ├── config.py          
 │   │   │   ├── security.py        
 │   │   │   └── exceptions.py      
-│   │   ├── crud/                  
+│   │   ├── repositories/                  
 │   │   │   ├── __init__.py
-│   │   │   ├── base.py
-│   │   │   ├── user.py
-│   │   │   └── item.py
+│   │   │   ├── base_repository.py
+│   │   │   ├── user_repository.py
+│   │   │   └── item_repository.py
 │   │   ├── models/                
 │   │   │   ├── __init__.py
 │   │   │   ├── base.py
